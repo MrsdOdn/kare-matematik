@@ -1,0 +1,124 @@
+.ana-konteynir {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0faff;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.kart-izgarasi {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.kart {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  user-select: none;
+}
+
+.kart-normal {
+  background-color: white;
+  border: 3px solid #6c5ce7;
+}
+
+.kart-kare {
+  background-color: #6c5ce7;
+  color: white;
+  transform: rotateY(10deg);
+}
+
+.ana-sayi { font-size: 2rem; font-weight: bold; color: #6c5ce7; }
+.kare-sonuc { font-size: 1.8rem; font-weight: bold; }
+.ipucu { font-size: 0.8rem; margin: 0; opacity: 0.8; }
+
+.quiz-baslat-btn {
+  margin-top: 40px;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  background-color: #00b894;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0,184,148,0.3);
+}
+
+.ana-btn {
+  margin-top: 40px;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  background-color: #00b894;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.geri-btn {
+  background-color: #ff7675; /* Kırmızımsı bir renk */
+}
+
+.quiz-kutusu {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  margin: 20px 0;
+}
+.sik-alani {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.sik-btn {
+  padding: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 3px solid #6c5ce7;
+  border-radius: 15px;
+  background: white;
+  color: #6c5ce7;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.sik-btn:hover {
+  background: #6c5ce7;
+  color: white;
+  transform: scale(1.05);
+}
+
+.quiz-kutusu h2 {
+  color: #2d3436;
+  font-size: 1.8rem;
+}
+.hata-balonu {
+  background-color: #ffeaa7;
+  color: #d63031;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  animation: sallan 0.5s; /* Titreme efekti */
+}
+
+@keyframes sallan {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
