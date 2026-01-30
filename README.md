@@ -1,16 +1,20 @@
-# React + Vite
+# 🌟 Süper Kareler - Matematik Öğrenme Oyunu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, çocukların 1'den 20'ye kadar olan tam kare sayıları ezberlemesini kolaylaştırmak için tasarlanmış eğlenceli bir web uygulamasıdır.
 
-Currently, two official plugins are available:
+## ✨ Özellikler
+- **Öğrenme Modu:** Sayı kartlarına dokunarak karelerini keşfetme.
+- **Quiz Modu:** Rastgele sorulan sorular ve 3 seçenekli sınav.
+- **Eğlenceli Geri Bildirim:** Doğru cevaplarda konfeti yağmuru ve ses efektleri.
+- **Mobil Uyumlu:** WhatsApp üzerinden gönderilen linkle her cihazda çalışır.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Kullanılan Teknolojiler
+- **React** (Vite ile)
+- **CSS3** (Animasyonlar ve Shake efekti)
+- **Canvas-Confetti** (Kutlama efekti)
+- **GitHub & Vercel** (Yayınlama)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Kurulum
+Eğer bu projeyi kendi bilgisayarınızda çalıştırmak isterseniz:
+1. `npm install`
+2. `npm run dev`
